@@ -1,1 +1,45 @@
-"Enter your styles here"
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  background: #eee;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 15px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #444;
+}
